@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { MediaEntry } from '../types/types';
+import MediaCard from '../components/MediaCard';
+import '../App.css';
 
 const Movies = () => {
   const [entries, setEntries] = useState<MediaEntry[]>([]);
@@ -28,21 +30,15 @@ const Movies = () => {
   if (error) return <p>Error loading series.</p>;
 
   return (
-    <div>
-      <h1>Movies</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
-        {entries.map((entry) => (
-          <div key={entry.title} style={{ width: 150 }}>
-            <img
-              src={entry.images['Poster Art'].url}
-              alt={entry.title}
-              style={{ width: '100%' }}
-            />
-            <p>{entry.title}</p>
-          </div>
+    <div className="media-grid">
+        {entries.map((item) => (
+        <MediaCard
+            key={item.title}
+            title={item.title}
+            imageUrl={item.images['Poster Art'].url}
+        />
         ))}
-      </div>
-    </div>
+  </div>
   );
 };
 
