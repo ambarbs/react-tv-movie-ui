@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { MediaEntry } from '../types/types';
-import MediaCard from '../components/MediaCard';
+import MediaCard from '@/components//mediaCard';
 import '../App.css';
 
 const Movies = () => {

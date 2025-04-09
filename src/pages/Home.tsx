@@ -1,13 +1,21 @@
+import '../App.css';
 import { Link } from 'react-router-dom';
-
+import seriesThumbnail from '../assets/series.png';
+import moviesThumbnail from '../assets/movies.png';
 const Home = () => {
   return (
-    <div>
-      <h1>Welcome</h1>
-      <Link to="/series">Browse Series</Link>
-      <br />
-      <Link to="/movies">Browse Movies</Link>
-    </div>
+    <>
+      <div className="media-grid">
+        <Link to="/series" className="media-card">
+          <img src={seriesThumbnail} alt="series" />
+          <p>Popular Series</p>
+        </Link>
+        <Link to="/movies" className="media-card">
+          <img src={moviesThumbnail} alt="Movies" />
+          <p>Popular Movies</p>
+        </Link>
+      </div>
+    </>
   );
 };
 
