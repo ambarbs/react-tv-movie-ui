@@ -10,9 +10,9 @@
 .media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 20px;
-  padding: 0 8rem;
+  gap: 2rem;
   justify-items: center;
+  padding: 2rem;
 }
 
 

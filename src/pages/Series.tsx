@@ -8,7 +8,7 @@ const Series = () => {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch('/feed/sample.json')
+    fetch(import.meta.env.BASE_URL + 'feed/sample.json')
       .then((res) => res.json())
       .then((data) => {
         const filtered = data.entries

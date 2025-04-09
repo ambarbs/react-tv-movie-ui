@@ -1,12 +1,23 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "jsx": "react-jsx",
-    "types": ["node"],
     "baseUrl": ".",
+    "types": ["node"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+
+    // Optional strictness and quality flags
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src", "eslint.config.js"]
 }
