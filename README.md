@@ -32,16 +32,19 @@ App will run at: http://localhost:4000
    ```bash
    npm run lint
 
-4. 🧪 Tech Stack
-- React
-- TypeScript
-- Vite
-- React Router v7
-- CSS Modules / Scoped CSS
-5. **Running Tests**
+4. **Running Tests**
 
-   This project uses [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/) for unit testing.
+   This project uses [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/) for unit testing
 
    To run all tests:
    ```bash
    npm test
+
+5. 🧪 Tech Stack
+- React – UI library
+- TypeScript – Static type checking
+- Vite – Lightning-fast build tool
+- React Router (HashRouter) – SPA routing, works with GitHub Pages
+- Scoped CSS using plain .css files – Component-level styling with traditional CSS files
+- Vitest & Testing Library – Unit testing framework and utilities
+
