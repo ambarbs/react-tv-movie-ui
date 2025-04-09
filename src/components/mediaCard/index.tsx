@@ -1,5 +1,5 @@
 import React from 'react';
-import './MediaCard.css'
+import '@/components/mediaCard/MediaCard.css';
 type Props = {
   title: string;
   imageUrl: string;

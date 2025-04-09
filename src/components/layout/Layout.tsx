@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from '@/components/header';
-import SubHeader from '@/components/subheader';
-import Footer from '@/components/footer';
-import '../App.css'; // global styles if needed
+import Header from '@/components/layout/header';
+import SubHeader from '@/components/layout/subheader';
+import Footer from '@/components/layout/footer';
+import '@/App.css';
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (

@@ -1,5 +1,5 @@
 import MediaCard from '@/components//mediaCard';
-import '../App.css';
+import '@/App.css';
 import { useMediaEntries } from '@/hooks/useMediaEntries';
 
 const Movies = () => {

@@ -1,7 +1,7 @@
-import '../App.css';
 import { Link } from 'react-router-dom';
-import seriesThumbnail from '../assets/series.png';
-import moviesThumbnail from '../assets/movies.png';
+import seriesThumbnail from '@/assets/series.png';
+import moviesThumbnail from '@/assets/movies.png';
+import '@/App.css';
 const Home = () => {
   return (
     <>

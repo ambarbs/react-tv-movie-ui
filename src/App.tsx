@@ -1,8 +1,8 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Series from './pages/Series';
+import Home from '@/pages/Home';
+import Series from '@/pages/Series';
 import Movies from '@/pages/Movies';
-import Layout from './components/Layout.js';
+import Layout from '@/components/layout/Layout.js';
 
 const App = () => {
   return (

@@ -38,7 +38,7 @@ App will run at: http://localhost:4000
 - Vite
 - React Router v7
 - CSS Modules / Scoped CSS
-5. ** Running Tests **
+5. **Running Tests**
 
    This project uses [Vitest](https://vitest.dev/) and [Testing Library](https://testing-library.com/) for unit testing.
 

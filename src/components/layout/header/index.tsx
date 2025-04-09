@@ -1,4 +1,4 @@
-import './Header.css'
+import '@/components/layout/header/Header.css'
 
 const Header = () => <div className="header">
   <h1>DEMO Streaming</h1>

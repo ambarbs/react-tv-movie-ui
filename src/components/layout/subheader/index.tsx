@@ -1,4 +1,4 @@
-import './Subheader.css';
+import '@/components/layout/subheader/Subheader.css';
 import { useLocation } from 'react-router-dom';
 
 const SubHeader = () => {

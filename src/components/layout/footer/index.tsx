@@ -1,10 +1,10 @@
-import './Footer.css';
-import facebookIcon from '../../assets/icons/social/facebook-white.svg';
-import instagramIcon from '../../assets/icons/social/instagram-white.svg';
-import xIcon from '../../assets/icons/social/twitter-white.svg';
-import appleAppstoreIcon from '../../assets/icons/store/app-store.svg';
-import googleAppstoreIcon from '../../assets/icons/store/play-store.svg';
-import windowsAppstoreIcon from '../../assets/icons/store/windows-store.svg';
+import '@/components/layout/footer/Footer.css';
+import facebookIcon from '@/assets/icons/social/facebook-white.svg';
+import instagramIcon from '@/assets/icons/social/instagram-white.svg';
+import xIcon from '@/assets/icons/social/twitter-white.svg';
+import appleAppstoreIcon from '@/assets/icons/store/app-store.svg';
+import googleAppstoreIcon from '@/assets/icons/store/play-store.svg';
+import windowsAppstoreIcon from '@/assets/icons/store/windows-store.svg';
 
 const Footer = () => {
     return (
