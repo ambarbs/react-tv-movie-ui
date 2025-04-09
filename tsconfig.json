@@ -2,7 +2,7 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "baseUrl": ".",
-    "types": ["node"],
+    "types": ["node", "vitest/globals", "jest", "@testing-library/jest-dom"],
     "module": "ESNext",
     "moduleResolution": "bundler",
     "esModuleInterop": true,
@@ -19,5 +19,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "eslint.config.js"]
+  "include": ["src", "eslint.config.js", "src/__tests__"]
 }

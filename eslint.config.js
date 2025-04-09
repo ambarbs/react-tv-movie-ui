@@ -36,5 +36,8 @@ export default [
       quotes: ['error', 'single'],
       'react/react-in-jsx-scope': 'off',
     },
+    env:{
+      "jest": true
+    }
   },
 ];
